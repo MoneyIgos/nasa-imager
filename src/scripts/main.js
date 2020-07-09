@@ -1,4 +1,4 @@
-var chuj = 'eechuj';
+const chuj = 'eechuj';
 
 const siusiak = 1;
 
