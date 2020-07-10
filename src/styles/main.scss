@@ -1,4 +1,10 @@
 @use 'vars';
 @use 'mixins';
 
-@import '../../node_modules/normalize.css/normalize.css';
+//@import '../../node_modules/normalize.css/normalize.css';
+
+
+body {
+  font-family: sans-serif;
+  color: red;
+}
