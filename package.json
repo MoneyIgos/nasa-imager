@@ -2,15 +2,22 @@
   "name": "niewiem-projekt",
   "version": "1.0.0",
   "description": "e",
-  "main": "main.js",
+  "author": "e",
+  "license": "ISC",
   "scripts": {
     "lint": "eslint .",
     "lint-fix": "eslint . --fix",
     "serve": "parcel serve src/index.html",
     "build": "parcel build src/index.html --no-source-maps"
   },
-  "author": "e",
-  "license": "ISC",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
@@ -23,14 +30,8 @@
     "lint-staged": "^10.2.11",
     "parcel-bundler": "^1.12.4",
     "prettier": "^2.0.5",
-    "sass": "^1.26.10"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "dependencies": {
-    "normalize.css": "^8.0.1"
+    "sass": "^1.26.10",
+    "stylelint": "^13.6.1",
+    "stylelint-config-sass-guidelines": "^7.0.0"
   }
 }
