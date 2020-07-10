@@ -1,4 +1,4 @@
-# nasa-imager
+# Nasa Imager
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/edf31115-368b-44f9-87fe-09a18267fc88/deploy-status)](https://app.netlify.com/sites/sad-snyder-437a21/deploys)
 
