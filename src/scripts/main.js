@@ -3,7 +3,7 @@
  */
 const searchInput = document.getElementById('fetch-images');
 
-searchInput?.addEventListener('keydown', ({ keyCode }) => {
+searchInput.addEventListener('keydown', ({ keyCode }) => {
   if (keyCode === 13) getImages();
 });
 
