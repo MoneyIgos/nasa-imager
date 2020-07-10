@@ -19,11 +19,15 @@
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
     "parcel-bundler": "^1.12.4",
-    "prettier": "^2.0.5"
+    "prettier": "^2.0.5",
+    "sass": "^1.26.10"
   },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   }
 }
