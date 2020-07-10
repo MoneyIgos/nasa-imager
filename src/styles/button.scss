@@ -1,0 +1,18 @@
+.kox-button {
+  border: 1px #ddd solid;
+  color: vars.$primary-color;
+  font-weight: 600;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 10px 20px;
+}
+
+.kox-button--outline {
+  border: 1px #ddd solid;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  background-color: vars.$primary-color;
+  padding: 10px 20px;
+}
+

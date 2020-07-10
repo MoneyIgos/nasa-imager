@@ -1,7 +1,8 @@
 @use 'vars';
 @use 'mixins';
 
-//@import '../../node_modules/normalize.css/normalize.css';
+@import '../../node_modules/normalize.css/normalize.css';
+@import 'button.scss';
 
 
 body {
@@ -43,12 +44,6 @@ body {
 
   &__log-in {
     margin: 0 5px;
-
-    &-button {
-      border: 1px #ddd solid;
-      color: vars.$primary-color;
-      background-color: #fff;
-    }
   }
 
   &__sing-in {
