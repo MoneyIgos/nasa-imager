@@ -1,7 +1,13 @@
+import Macy from 'macy';
+
 /**
  * @type {HTMLInputElement}
  */
 const searchInput = document.getElementById('fetch-images');
+const macy = Macy({
+  container: '#content',
+  margin: 24,
+});
 
 searchInput.addEventListener('keydown', ({ keyCode }) => {
   if (keyCode === 13) getImages();
@@ -22,4 +28,6 @@ function showImages(data) {
   images.forEach(el => {
     content.innerHTML += `<img src="${el}">`;
   });
+
+  macy.recalculate(true);
 }
