@@ -9,9 +9,10 @@ body {
   color: #333;
 }
 
-.header {
+.navbar {
   display: flex;
   align-items: center;
+  box-shadow: 0 0 .5em #555;
 
   &__logo {
     font-size: larger;
