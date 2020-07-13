@@ -47,6 +47,24 @@ body {
   }
 }
 
+.route-map {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 5vh;
+  margin-left: 9vw;
+
+  &__element {
+    margin: 0 10px;
+    color: #444;
+
+    &--main {
+      margin: 0 10px;
+      font-weight: 700;
+    }
+  }
+}
+
 main {
   padding: 5vh 15vw;
 }
