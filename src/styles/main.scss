@@ -12,7 +12,7 @@ body {
 .navbar {
   display: flex;
   align-items: center;
-  box-shadow: 0 0 .5em #555;
+  box-shadow: 0 0 0.5em #555;
 
   &__logo {
     font-size: larger;
@@ -67,4 +67,10 @@ body {
 
 main {
   padding: 5vh 15vw;
+}
+
+.pageinator {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
 }
